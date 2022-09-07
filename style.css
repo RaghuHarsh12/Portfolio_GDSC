@@ -1,7 +1,179 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+/* color */
+/* maintext: 222831 */
+/* logotext : 892CDC */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    }
+body {
+   
+  font-family: "Poppins", sans-serif;
+  color: #222831;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #222831;
+}
+a:hover{
+    color: whitesmoke;
+    transition: all 250ms;
+}
+/* navbar style */
+.navbar {
+    background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* logo */
+.logo-main-title {
+  font-size: 25px;
+  font-style: italic;
+  border-bottom: #892cdc solid 4px;
+}
+.logo-title {
+  color: #892cdc;
+}
+
+/* list */
+.list-section {
+  width: 50%;
+}
+.list-wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-item {
+  list-style: none;
+  padding: 5px;
+  border-radius: 8px;
+}
+.list-item:hover {
+  background-color: #892cdc;
+
+  cursor: pointer;
+  transition: all 250ms;
+}
+/* Hire me Button */
+.hire-btn {
+  width: 120px;
+  height: 35px;
+  border: none;
+  background-color: #892cdc;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.hire-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+
+/* hero section */
+.container {
+  width: 90%;
+  height: calc(880px - 60px);
+  display: flex;
+  align-items: center;
+}
+/* right section */
+.right {
+  width: 50%;
+  display: flex;
+}
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+.download-btn{
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #892cdc;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.download-btn:hover{
+    cursor: pointer;
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+
+/* left section */
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/* about section */
+.about-container{
+    width: 90%;
+  height: calc(880px - 60px);
+  display: flex;
+  align-items: center; 
+}
+.about-left{
+    width: 50%;
+    display: flex;
+}
+.about-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+/* education section */
+.education-container{
+    width: 90%;
+  height: calc(880px - 60px);
+  display: flex;
+  align-items: center; 
+}
+.education-right{
+    width: 50%;
+    display: flex;
+}
+.education-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+/* project-section */
+.project-container{
+    width: 90%;
+    height: calc(880px - 60px);
+    display: flex;
+    align-items: center; 
+}
+.project-left{
+    width: 50%;
+    display: flex;
+}
+.project-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
