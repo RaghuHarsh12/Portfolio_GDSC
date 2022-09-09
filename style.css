@@ -351,19 +351,19 @@ justify-content: center;
     line-height: 60px;
     transition: all 0.3s ease-out;
   }
-  .wrapper .button:nth-child(1):hover .icon{
+  .wrapper .button:nth-child(2):hover .icon{
     background: #0077b5;
   }
-  .wrapper .button:nth-child(2):hover .icon{
+  .wrapper .button:nth-child(3):hover .icon{
     background: #1DA1F2;
   }
-  .wrapper .button:nth-child(3):hover .icon{
+  .wrapper .button:nth-child(4):hover .icon{
     background: #E1306C;
   }
-  .wrapper .button:nth-child(4):hover .icon{
+  .wrapper .button:nth-child(5):hover .icon{
     background: #333;
   }
-  .wrapper .button:nth-child(5):hover .icon{
+  .wrapper .button:nth-child(6):hover .icon{
     background: #ff0000;
   }
   .wrapper .button .icon i{
@@ -381,19 +381,19 @@ justify-content: center;
     margin-left: 10px;
     transition: all 0.3s ease-out;
   }
-  .wrapper .button:nth-child(1) span{
+  .wrapper .button:nth-child(2) span{
     color: #0077b5;
   }
-  .wrapper .button:nth-child(2) span{
+  .wrapper .button:nth-child(3) span{
     color: #1DA1F2;
   }
-  .wrapper .button:nth-child(3) span{
+  .wrapper .button:nth-child(4) span{
     color: #E1306C;
   }
-  .wrapper .button:nth-child(4) span{
+  .wrapper .button:nth-child(5) span{
     color: #333;
   }
-  .wrapper .button:nth-child(5) span{
+  .wrapper .button:nth-child(6) span{
     color: #ff0000;
   }
 
